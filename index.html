@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAG7 Atomic Supply Chain Command Center</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>MAG7 Atomic Supply Chain Command Center</h1>
+    <p>Company-level intelligence: strategy → products → suppliers → materials → chokepoints → risk.</p>
+  </header>
+
+  <main class="grid">
+    <section class="panel" id="executive">
+      <h2>1) Executive Command Center</h2>
+      <div id="companyCards" class="cards"></div>
+      <div id="rankingChart" class="chart"></div>
+    </section>
+
+    <section class="panel" id="deepDive">
+      <h2>2) Company Deep Dive</h2>
+      <div class="controls">
+        <label>Company <select id="companySelect"></select></label>
+        <label>Risk Filter <select id="riskFilter"></select></label>
+      </div>
+      <div id="companyProfile" class="insight"></div>
+      <div class="two-col">
+        <div id="riskRadar" class="chart"></div>
+        <div id="regionalChart" class="chart"></div>
+      </div>
+      <div id="sankeyChart" class="chart"></div>
+      <div id="supplierNetwork" class="chart"></div>
+      <table id="criticalInputs"></table>
+    </section>
+
+    <section class="panel" id="atomicExplorer">
+      <h2>3) Atomic Input Explorer</h2>
+      <label>Material/Input <select id="materialSelect"></select></label>
+      <div id="materialInfo" class="insight"></div>
+      <table id="materialLedger"></table>
+    </section>
+
+
+    <section class="panel" id="linkageMapSection">
+      <h2>4) Supplier-Material Linkage Map</h2>
+      <div id="linkageMap" class="chart"></div>
+      <div id="linkageInsight" class="insight"></div>
+      <table id="sharedLinkageTable"></table>
+    </section>
+
+    <section class="panel" id="heatmapSection">
+      <h2>6) Risk Heatmap</h2>
+      <div id="riskHeatmap" class="chart"></div>
+      <div id="heatmapExplain" class="insight"></div>
+    </section>
+
+    <section class="panel" id="scenarioSection">
+      <h2>7) Scenario Simulator</h2>
+      <label>Scenario <select id="scenarioSelect"></select></label>
+      <div id="scenarioImpact" class="chart"></div>
+      <div id="scenarioExplain" class="insight"></div>
+    </section>
+
+    <section class="panel" id="insights">
+      <h2>8) What this means</h2>
+      <ul id="strategicList"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
