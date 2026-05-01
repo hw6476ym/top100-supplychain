@@ -1,49 +1,27 @@
-# Top 100 Company Supply Chain Intelligence Platform
+# MAG7 Atomic Supply Chain Command Center
 
-A serious static intelligence dashboard prototype for company-level supply-chain analysis (simulated data).
-
-## Clean architecture (single active entrypoint)
-- `index.html` loads only `js/main.js`.
-- `app.js` has been removed to eliminate stale/duplicate logic.
-- `js/dataStore.js` is the single data loader.
-
-## Data sources (single source of truth)
-All active dashboard content is loaded from `data/*.json`:
-- `data/companies.json` (Top 25 seeded; model supports Top 100)
-- `data/materials.json`
-- `data/suppliers.json`
-- `data/scenarios.json`
-- `data/relationships.json`
-- `data/materialLedger.json`
-
-## Visible product sections
-- Executive Command Center
-- Company Deep Dive (with CEO-style panel)
-- Atomic Input Explorer
-- Supplier Network Explorer
-- Sankey Flow View
-- Risk Heatmap
-- Scenario Simulator
-- Sector View
-- Watchlist
-- Strategic Insight Panel
+Interactive dashboard for exploring supply-chain risk and resilience across Apple, Microsoft, Nvidia, Amazon, Alphabet, Meta, and Tesla.
 
 ## Run locally
+
 ```bash
 python -m http.server 8000
 ```
+
 Open `http://localhost:8000`.
 
-## Deploy
-GitHub Pages workflow: `.github/workflows/deploy-pages.yml`.
-Validation gate: `node scripts/validate-data.js`.
+## Architecture
 
-## How to explain this project in class
-1. Open Executive Command Center for portfolio-level exposure summary.
-2. Pick a company and walk the deep-dive + supply-chain stack narrative.
-3. Show supplier network and Sankey to explain where physical bottlenecks live.
-4. Use heatmap and scenarios to show first-order vs second-order effects.
-5. End with watchlist and strategic moves.
+The app is split into focused browser modules (all loaded from `js/main.js`):
 
-## Disclaimer
-Educational prototype with simulated data. Not investment advice.
+- `js/dataStore.js`: data loading + in-memory caching. Exposes `loadData()` for risk factors, companies, materials, scenarios, and the material ledger JSON.
+- `js/state.js`: shared UI selection state for company, material, and scenario.
+- `js/charts.js`: Plotly chart rendering helpers (ranking, heatmap, company charts, common layout helpers).
+- `js/linkage.js`: linkage visualizations and table rendering (sankey flow, network graph, shared critical-input table).
+- `js/scenarios.js`: scenario propagation UI rendering for scenario impact chart + narrative panel.
+- `js/main.js`: bootstrap logic, DOM bindings, and orchestration across all modules.
+
+## Notes
+
+- Data is simulated/prototype data for educational demonstration.
+- Not investment advice.
