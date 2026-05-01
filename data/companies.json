@@ -1,0 +1,9 @@
+[
+  {"name":"Apple","ticker":"AAPL","riskScores":[88,85,72,64,58,66,42,69,74,61,39,55],"resilienceScore":63,"segments":["iPhone","Mac","Services"],"chain":"Apple → Devices → Assembly partners → Asian manufacturing clusters → silicon/copper/rare earths → chokepoints"},
+  {"name":"Microsoft","ticker":"MSFT","riskScores":[73,32,68,81,22,28,86,48,59,72,84,52],"resilienceScore":71,"segments":["Azure","Office","AI"],"chain":"Microsoft → Azure AI → GPUs/HBM/power equipment → US/Taiwan/Korea chains"},
+  {"name":"Nvidia","ticker":"NVDA","riskScores":[96,28,94,97,20,24,67,63,82,88,58,62],"resilienceScore":56,"segments":["Data Center","Gaming"],"chain":"Nvidia → AI GPUs → TSMC/HBM/packaging → Taiwan/Korea chokepoints"},
+  {"name":"Amazon","ticker":"AMZN","riskScores":[69,54,62,79,21,24,88,77,55,66,87,49],"resilienceScore":68,"segments":["AWS","Retail"],"chain":"Amazon → AWS+Retail → GPUs/logistics/power → shipping + grid exposure"},
+  {"name":"Alphabet","ticker":"GOOGL","riskScores":[74,40,66,78,24,22,85,45,57,70,82,50],"resilienceScore":72,"segments":["Cloud","Ads","Devices"],"chain":"Alphabet → TPU+Cloud → foundry/memory/power → concentrated infrastructure"},
+  {"name":"Meta","ticker":"META","riskScores":[72,34,63,82,19,27,89,41,53,68,86,48],"resilienceScore":69,"segments":["AI infra","Apps"],"chain":"Meta → AI clusters → GPU-memory-power stack → physical capacity race"},
+  {"name":"Tesla","ticker":"TSLA","riskScores":[52,71,49,44,93,61,59,64,58,47,66,57],"resilienceScore":65,"segments":["EV","Energy"],"chain":"Tesla → EV/energy storage → batteries + power electronics → mineral intensity"}
+]

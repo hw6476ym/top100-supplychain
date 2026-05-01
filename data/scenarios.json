@@ -1,0 +1,6 @@
+[
+ {"name":"Taiwan Strait disruption","channel":"Foundry + packaging concentration","beneficiaries":"Diversified non-Taiwan sourcing"},
+ {"name":"HBM memory shortage","channel":"AI compute memory bottleneck","beneficiaries":"Memory-efficient model stacks"},
+ {"name":"Copper price shock","channel":"Power + interconnect capex inflation","beneficiaries":"High efficiency operators"},
+ {"name":"Data-center power shortage","channel":"Utility interconnect delays","beneficiaries":"Pre-contracted power operators"}
+]
