@@ -1,17 +1,41 @@
 name: Deploy static dashboard to GitHub Pages
+
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
+  validate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate JSON data and generate checksums
+        env:
+          MAX_DATA_AGE_DAYS: "45"
+        run: node scripts/validate-data.js
+      - name: Upload validated data artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: validated-data
+          path: |
+            data/*.json
+            data/checksums.sha256
+
   deploy:
+    needs: validate-data
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
