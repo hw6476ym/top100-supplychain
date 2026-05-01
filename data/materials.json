@@ -1,0 +1,10 @@
+[
+  {"name":"Copper","importance":95,"substitution":"Low","recovery":"2-4 quarters","strategic":"Power, interconnect, transformers, and cooling all amplify copper sensitivity."},
+  {"name":"Silicon wafers","importance":98,"substitution":"Low","recovery":"4+ quarters","strategic":"Advanced node output is foundry-constrained with long qualification cycles."},
+  {"name":"HBM memory","importance":99,"substitution":"Low","recovery":"4+ quarters","strategic":"HBM bandwidth governs frontier model training throughput."},
+  {"name":"Lithium","importance":88,"substitution":"Medium","recovery":"2-4 quarters","strategic":"Battery cost stack and storage economics remain lithium-sensitive."},
+  {"name":"Nickel","importance":82,"substitution":"Medium","recovery":"2-4 quarters","strategic":"High-energy chemistries maintain nickel dependence."},
+  {"name":"Graphite","importance":86,"substitution":"Low","recovery":"2-4 quarters","strategic":"Anode supply is concentrated and processing intensive."},
+  {"name":"Rare earth magnets","importance":84,"substitution":"Low","recovery":"4+ quarters","strategic":"Motor and precision actuator performance ties to rare-earth magnet access."},
+  {"name":"Power semiconductors","importance":90,"substitution":"Medium","recovery":"2-4 quarters","strategic":"Conversion efficiency and high-density power delivery need robust SiC/IGBT supply."}
+]
