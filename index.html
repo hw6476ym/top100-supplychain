@@ -1,13 +1,137 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Top 100 Company Supply Chain Intelligence Platform</title><link rel="stylesheet" href="styles.css"><script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script></head><body>
-<header class="topbar"><h1>Top 100 Company Supply Chain Intelligence Platform</h1><p>Company-level intelligence: segment → supplier → material → chokepoint → scenario implication.</p><p><b id="buildStamp">Build: pending</b></p></header>
-<main class="grid">
-<section class="panel"><h2>Executive Risk Command Center</h2><div id="executiveStats" class="cards"></div><div id="rankingChart" class="chart"></div></section>
-<section class="panel"><h2>Company Deep Dive</h2><div class="controls"><label>Company <select id="companySelect"></select></label><label>Scenario <select id="scenarioSelect"></select></label><label>Material <select id="materialSelect"></select></label></div><div id="companyProfile" class="insight"></div><div id="ceoPanel" class="insight"></div><div id="stackFlow" class="insight"></div><div class="two-col"><div id="riskRadar" class="chart"></div><div id="regionalChart" class="chart"></div></div><div id="sankeyChart" class="chart"></div><div id="supplierNetwork" class="chart"></div></section>
-<section class="panel"><h2>Atomic Input Explorer</h2><div id="atomicExplorerPanel" class="insight"></div><table id="materialLedger"></table></section>
-<section class="panel"><h2>Risk Heatmap</h2><div id="riskHeatmap" class="chart"></div><div id="heatmapExplain" class="insight"></div></section>
-<section class="panel"><h2>Scenario Simulator</h2><div id="scenarioSimulatorPanel" class="insight"></div><div id="scenarioImpact" class="chart"></div><div id="scenarioExplain" class="insight"></div></section>
-<section class="panel"><h2>Watchlist</h2><ul id="watchlist"></ul></section>
-<section class="panel"><h2>Strategic Insights</h2><ul id="strategicInsights"></ul><div id="whatChanged" class="insight"></div></section>
-</main>
-<script type="module" src="js/main.js"></script>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top 100 Supply Chain Intelligence Platform</title>
+  <link rel="stylesheet" href="styles.css?v=20260501-force-refresh-2" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+  <script src="app.js?v=20260501-force-refresh-2" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">LIVE FIX v2 • Top 100 architecture • visible refresh</p>
+      <h1>Top 100 Supply Chain Intelligence Platform</h1>
+      <p class="subtitle">Company → segment → product → component → supplier → region → atomic input → chokepoint → scenario → strategic implication.</p>
+    </div>
+    <div class="hero-badge">
+      <span>Static GitHub Pages app</span>
+      <strong>No backend • Plotly • Simulated intelligence data</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="command-strip" id="commandStrip"></section>
+
+    <section class="panel executive-grid">
+      <div>
+        <div class="section-title">
+          <p>01 / Executive Command Center</p>
+          <h2>Where the physical AI economy can break</h2>
+        </div>
+        <div id="leaderCards" class="leader-cards"></div>
+      </div>
+      <div class="chart-card">
+        <div class="mini-title">Top risk ranking</div>
+        <div id="rankingChart" class="chart"></div>
+      </div>
+    </section>
+
+    <section class="panel controls-panel">
+      <label>Company
+        <select id="companySelect"></select>
+      </label>
+      <label>Sector
+        <select id="sectorSelect"></select>
+      </label>
+      <label>Risk lens
+        <select id="riskLensSelect"></select>
+      </label>
+      <label>Scenario
+        <select id="scenarioSelect"></select>
+      </label>
+      <label>Atomic input
+        <select id="materialSelect"></select>
+      </label>
+    </section>
+
+    <section class="panel company-grid">
+      <article class="deep-dive">
+        <div class="section-title">
+          <p>02 / Company Deep Dive</p>
+          <h2 id="companyTitle">Company</h2>
+        </div>
+        <div id="companyNarrative" class="analysis-box"></div>
+        <div id="ceoBrief" class="ceo-box"></div>
+      </article>
+      <article class="chart-card"><div class="mini-title">12-factor risk radar</div><div id="radarChart" class="chart"></div></article>
+      <article class="chart-card"><div class="mini-title">Regional exposure</div><div id="regionChart" class="chart small"></div></article>
+    </section>
+
+    <section class="panel split">
+      <article>
+        <div class="section-title">
+          <p>03 / Atomic Input Explorer</p>
+          <h2 id="materialTitle">Material</h2>
+        </div>
+        <div id="materialBrief" class="analysis-box"></div>
+        <div id="materialExposure" class="pill-grid"></div>
+      </article>
+      <article class="chart-card"><div class="mini-title">Material exposure by company</div><div id="materialChart" class="chart small"></div></article>
+    </section>
+
+    <section class="panel split wide-left">
+      <article class="chart-card"><div class="mini-title">Sankey: company-to-atomic chain</div><div id="sankeyChart" class="chart tall"></div></article>
+      <article>
+        <div class="section-title">
+          <p>04 / Supplier Network Explorer</p>
+          <h2>Shared suppliers, materials, and chokepoints</h2>
+        </div>
+        <div id="networkChart" class="chart tall"></div>
+      </article>
+    </section>
+
+    <section class="panel heatmap-grid">
+      <div class="chart-card"><div class="mini-title">Risk heatmap</div><div id="heatmapChart" class="chart tall"></div></div>
+      <div>
+        <div class="section-title">
+          <p>05 / Heatmap Interpretation</p>
+          <h2>Click a cell mentally; read the risk logic here</h2>
+        </div>
+        <div id="heatmapBrief" class="analysis-box"></div>
+        <table id="riskTable"></table>
+      </div>
+    </section>
+
+    <section class="panel scenario-grid">
+      <article>
+        <div class="section-title">
+          <p>06 / Scenario Simulator</p>
+          <h2 id="scenarioTitle">Scenario</h2>
+        </div>
+        <div id="scenarioBrief" class="analysis-box"></div>
+        <div id="scenarioCards" class="scenario-cards"></div>
+      </article>
+      <article class="chart-card"><div class="mini-title">Scenario impact ranking</div><div id="scenarioChart" class="chart"></div></article>
+    </section>
+
+    <section class="panel split">
+      <article>
+        <div class="section-title">
+          <p>07 / What to Monitor</p>
+          <h2>Early-warning watchlist</h2>
+        </div>
+        <div id="watchlist" class="watchlist"></div>
+      </article>
+      <article>
+        <div class="section-title">
+          <p>08 / Strategic Takeaways</p>
+          <h2>How to explain this project</h2>
+        </div>
+        <div id="takeaways" class="analysis-box"></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
