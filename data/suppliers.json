@@ -1,0 +1,667 @@
+[
+  {
+    "name": "TSMC",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Microsoft",
+      "Intel",
+      "AMD",
+      "Alphabet",
+      "Panasonic",
+      "Amazon"
+    ],
+    "riskScore": 91,
+    "concentrationRisk": 95
+  },
+  {
+    "name": "Foxconn",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Adobe",
+      "Tesla",
+      "Meta",
+      "Salesforce",
+      "Nike",
+      "Broadcom"
+    ],
+    "riskScore": 93,
+    "concentrationRisk": 79
+  },
+  {
+    "name": "Pegatron",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Nvidia",
+      "AMD",
+      "Broadcom",
+      "Qualcomm",
+      "Oracle",
+      "Microsoft"
+    ],
+    "riskScore": 63,
+    "concentrationRisk": 75
+  },
+  {
+    "name": "Luxshare",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Korea",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Panasonic",
+      "Amazon",
+      "ASML",
+      "Samsung Electronics",
+      "Salesforce",
+      "Oracle"
+    ],
+    "riskScore": 82,
+    "concentrationRisk": 48
+  },
+  {
+    "name": "Samsung",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Amazon",
+      "Salesforce",
+      "ASML",
+      "Tesla",
+      "Microsoft",
+      "TSMC"
+    ],
+    "riskScore": 53,
+    "concentrationRisk": 89
+  },
+  {
+    "name": "SK Hynix",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Siemens",
+      "Adobe",
+      "TSMC",
+      "ASML",
+      "Samsung Electronics",
+      "Amazon"
+    ],
+    "riskScore": 54,
+    "concentrationRisk": 85
+  },
+  {
+    "name": "Micron",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Nvidia",
+      "Cisco",
+      "Meta",
+      "Boeing",
+      "Tesla",
+      "ASML"
+    ],
+    "riskScore": 91,
+    "concentrationRisk": 67
+  },
+  {
+    "name": "ASML",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "ExxonMobil",
+      "Nike",
+      "Meta",
+      "Cisco",
+      "Oracle",
+      "Intel"
+    ],
+    "riskScore": 62,
+    "concentrationRisk": 91
+  },
+  {
+    "name": "Applied Materials",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Intel",
+      "TSMC",
+      "Broadcom",
+      "Boeing",
+      "Adobe",
+      "Siemens"
+    ],
+    "riskScore": 77,
+    "concentrationRisk": 83
+  },
+  {
+    "name": "Lam Research",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Adobe",
+      "Intel",
+      "Cisco",
+      "Nike",
+      "Amazon",
+      "Oracle"
+    ],
+    "riskScore": 89,
+    "concentrationRisk": 73
+  },
+  {
+    "name": "Tokyo Electron",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Tesla",
+      "Cisco",
+      "Samsung Electronics",
+      "Siemens",
+      "Meta",
+      "TSMC"
+    ],
+    "riskScore": 87,
+    "concentrationRisk": 56
+  },
+  {
+    "name": "ASE",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "ExxonMobil",
+      "Nvidia",
+      "TSMC",
+      "Salesforce",
+      "Panasonic",
+      "Nike"
+    ],
+    "riskScore": 83,
+    "concentrationRisk": 78
+  },
+  {
+    "name": "Amkor",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Taiwan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Apple",
+      "Oracle",
+      "Pfizer",
+      "Qualcomm",
+      "Nvidia",
+      "Siemens"
+    ],
+    "riskScore": 58,
+    "concentrationRisk": 82
+  },
+  {
+    "name": "Quanta",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "China",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Samsung Electronics",
+      "Salesforce",
+      "Alphabet",
+      "Siemens",
+      "Amazon",
+      "Intel"
+    ],
+    "riskScore": 55,
+    "concentrationRisk": 94
+  },
+  {
+    "name": "Wistron",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Microsoft",
+      "Oracle",
+      "Nike",
+      "Meta",
+      "ASML",
+      "Pfizer"
+    ],
+    "riskScore": 73,
+    "concentrationRisk": 48
+  },
+  {
+    "name": "Inventec",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "Taiwan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Nike",
+      "AMD",
+      "Samsung Electronics",
+      "Meta",
+      "Cisco",
+      "Tesla"
+    ],
+    "riskScore": 88,
+    "concentrationRisk": 50
+  },
+  {
+    "name": "Dell",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Microsoft",
+      "Apple",
+      "ExxonMobil",
+      "Pfizer",
+      "Samsung Electronics",
+      "Qualcomm"
+    ],
+    "riskScore": 86,
+    "concentrationRisk": 95
+  },
+  {
+    "name": "Supermicro",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Tesla",
+      "Panasonic",
+      "Nvidia",
+      "Sony",
+      "Boeing",
+      "Siemens"
+    ],
+    "riskScore": 67,
+    "concentrationRisk": 66
+  },
+  {
+    "name": "Broadcom",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Korea",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Amazon",
+      "Salesforce",
+      "TSMC",
+      "Meta",
+      "Tesla",
+      "AMD"
+    ],
+    "riskScore": 61,
+    "concentrationRisk": 47
+  },
+  {
+    "name": "Qualcomm",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "China",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Nike",
+      "Cisco",
+      "Salesforce",
+      "ASML",
+      "Boeing",
+      "Broadcom"
+    ],
+    "riskScore": 62,
+    "concentrationRisk": 58
+  },
+  {
+    "name": "Murata",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "AMD",
+      "Pfizer",
+      "Broadcom",
+      "Amazon",
+      "Boeing",
+      "Samsung Electronics"
+    ],
+    "riskScore": 94,
+    "concentrationRisk": 71
+  },
+  {
+    "name": "Sony Semiconductor",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "EU",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Adobe",
+      "Alphabet",
+      "Nvidia",
+      "Samsung Electronics",
+      "Microsoft",
+      "Meta"
+    ],
+    "riskScore": 56,
+    "concentrationRisk": 59
+  },
+  {
+    "name": "Panasonic",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Sony",
+      "Siemens",
+      "ExxonMobil",
+      "Meta",
+      "Broadcom",
+      "Intel"
+    ],
+    "riskScore": 92,
+    "concentrationRisk": 48
+  },
+  {
+    "name": "CATL",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Taiwan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Cisco",
+      "Qualcomm",
+      "Siemens",
+      "Sony",
+      "Broadcom",
+      "Oracle"
+    ],
+    "riskScore": 70,
+    "concentrationRisk": 90
+  },
+  {
+    "name": "LG Energy Solution",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Korea",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Nvidia",
+      "Alphabet",
+      "Amazon",
+      "Siemens",
+      "Tesla",
+      "Apple"
+    ],
+    "riskScore": 80,
+    "concentrationRisk": 72
+  },
+  {
+    "name": "BYD",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Taiwan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Boeing",
+      "Apple",
+      "Siemens",
+      "Nike",
+      "ExxonMobil",
+      "Panasonic"
+    ],
+    "riskScore": 72,
+    "concentrationRisk": 78
+  },
+  {
+    "name": "Schneider Electric",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Tesla",
+      "Samsung Electronics",
+      "Apple",
+      "Adobe",
+      "Microsoft",
+      "Alphabet"
+    ],
+    "riskScore": 64,
+    "concentrationRisk": 50
+  },
+  {
+    "name": "Vertiv",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Qualcomm",
+      "Siemens",
+      "Nike",
+      "Boeing",
+      "ExxonMobil",
+      "Cisco"
+    ],
+    "riskScore": 74,
+    "concentrationRisk": 50
+  },
+  {
+    "name": "Arista",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Apple",
+      "Nike",
+      "Siemens",
+      "Meta",
+      "Cisco",
+      "Amazon"
+    ],
+    "riskScore": 54,
+    "concentrationRisk": 46
+  },
+  {
+    "name": "Cisco",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "Japan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "TSMC",
+      "Boeing",
+      "Pfizer",
+      "Oracle",
+      "Sony",
+      "Microsoft"
+    ],
+    "riskScore": 96,
+    "concentrationRisk": 82
+  },
+  {
+    "name": "Corning",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "China",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Panasonic",
+      "Boeing",
+      "Salesforce",
+      "Sony",
+      "Adobe",
+      "Nvidia"
+    ],
+    "riskScore": 55,
+    "concentrationRisk": 71
+  },
+  {
+    "name": "Maersk",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "Taiwan",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Amazon",
+      "Oracle",
+      "Nike",
+      "Salesforce",
+      "Adobe",
+      "TSMC"
+    ],
+    "riskScore": 87,
+    "concentrationRisk": 53
+  },
+  {
+    "name": "DHL",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Cisco",
+      "Samsung Electronics",
+      "Nike",
+      "Sony",
+      "Microsoft",
+      "TSMC"
+    ],
+    "riskScore": 54,
+    "concentrationRisk": 71
+  },
+  {
+    "name": "UPS",
+    "tier": 2,
+    "category": "Supplier",
+    "region": "US",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Microsoft",
+      "Broadcom",
+      "Apple",
+      "TSMC",
+      "ExxonMobil",
+      "Intel"
+    ],
+    "riskScore": 73,
+    "concentrationRisk": 52
+  },
+  {
+    "name": "FedEx",
+    "tier": 1,
+    "category": "Supplier",
+    "region": "China",
+    "components": [
+      "critical components"
+    ],
+    "dependentCompanies": [
+      "Broadcom",
+      "Pfizer",
+      "Nvidia",
+      "Cisco",
+      "Qualcomm",
+      "TSMC"
+    ],
+    "riskScore": 79,
+    "concentrationRisk": 79
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Silicon wafers",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 71,
+    "importance": 75,
+    "recovery": "1-2 quarters",
+    "strategic": "Silicon wafers is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Copper",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 78,
+    "importance": 62,
+    "recovery": "1-2 quarters",
+    "strategic": "Copper is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Aluminum",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 86,
+    "importance": 70,
+    "recovery": "2-4 quarters",
+    "strategic": "Aluminum is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Lithium",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 84,
+    "importance": 61,
+    "recovery": "4+ quarters",
+    "strategic": "Lithium is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Nickel",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "High",
+    "disruptionSeverity": 94,
+    "importance": 88,
+    "recovery": "1-2 quarters",
+    "strategic": "Nickel is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Cobalt",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 63,
+    "importance": 72,
+    "recovery": "1-2 quarters",
+    "strategic": "Cobalt is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Graphite",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "High",
+    "disruptionSeverity": 87,
+    "importance": 83,
+    "recovery": "4+ quarters",
+    "strategic": "Graphite is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Rare earth magnets",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 67,
+    "importance": 83,
+    "recovery": "1-2 quarters",
+    "strategic": "Rare earth magnets is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Gallium",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "High",
+    "disruptionSeverity": 89,
+    "importance": 70,
+    "recovery": "1-2 quarters",
+    "strategic": "Gallium is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Germanium",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 79,
+    "importance": 70,
+    "recovery": "1-2 quarters",
+    "strategic": "Germanium is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Tantalum",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 88,
+    "importance": 71,
+    "recovery": "4+ quarters",
+    "strategic": "Tantalum is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Tin",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 80,
+    "importance": 99,
+    "recovery": "4+ quarters",
+    "strategic": "Tin is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Gold",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 66,
+    "importance": 79,
+    "recovery": "1-2 quarters",
+    "strategic": "Gold is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Silver",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 59,
+    "importance": 72,
+    "recovery": "1-2 quarters",
+    "strategic": "Silver is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Palladium",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 80,
+    "importance": 90,
+    "recovery": "1-2 quarters",
+    "strategic": "Palladium is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Neon gas",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 98,
+    "importance": 62,
+    "recovery": "1-2 quarters",
+    "strategic": "Neon gas is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Argon gas",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 95,
+    "importance": 97,
+    "recovery": "1-2 quarters",
+    "strategic": "Argon gas is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Helium",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "High",
+    "disruptionSeverity": 97,
+    "importance": 75,
+    "recovery": "1-2 quarters",
+    "strategic": "Helium is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Photoresists",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 80,
+    "importance": 89,
+    "recovery": "4+ quarters",
+    "strategic": "Photoresists is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Fluoropolymers",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 74,
+    "importance": 95,
+    "recovery": "2-4 quarters",
+    "strategic": "Fluoropolymers is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Advanced substrates",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 94,
+    "importance": 72,
+    "recovery": "1-2 quarters",
+    "strategic": "Advanced substrates is a core dependency across multiple sectors."
+  },
+  {
+    "name": "HBM memory",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 64,
+    "importance": 66,
+    "recovery": "1-2 quarters",
+    "strategic": "HBM memory is a core dependency across multiple sectors."
+  },
+  {
+    "name": "DRAM",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 91,
+    "importance": 77,
+    "recovery": "2-4 quarters",
+    "strategic": "DRAM is a core dependency across multiple sectors."
+  },
+  {
+    "name": "NAND",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Medium",
+    "disruptionSeverity": 83,
+    "importance": 66,
+    "recovery": "1-2 quarters",
+    "strategic": "NAND is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Batteries",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 67,
+    "importance": 96,
+    "recovery": "2-4 quarters",
+    "strategic": "Batteries is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Transformers",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "High",
+    "disruptionSeverity": 57,
+    "importance": 89,
+    "recovery": "4+ quarters",
+    "strategic": "Transformers is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Fiber optic components",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 72,
+    "importance": 90,
+    "recovery": "4+ quarters",
+    "strategic": "Fiber optic components is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Cooling systems",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "High",
+    "disruptionSeverity": 76,
+    "importance": 97,
+    "recovery": "2-4 quarters",
+    "strategic": "Cooling systems is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Power semiconductors",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 74,
+    "importance": 98,
+    "recovery": "1-2 quarters",
+    "strategic": "Power semiconductors is a core dependency across multiple sectors."
+  },
+  {
+    "name": "Data-center power equipment",
+    "category": "Atomic input",
+    "usedIn": [
+      "AI servers",
+      "EVs",
+      "Consumer electronics"
+    ],
+    "exposedCompanies": [
+      "Apple",
+      "Microsoft",
+      "Nvidia",
+      "Amazon",
+      "Alphabet",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ],
+    "keyRegions": [
+      "Taiwan",
+      "China",
+      "US",
+      "Korea"
+    ],
+    "substitutionDifficulty": "Low",
+    "disruptionSeverity": 59,
+    "importance": 98,
+    "recovery": "4+ quarters",
+    "strategic": "Data-center power equipment is a core dependency across multiple sectors."
+  }
+]
