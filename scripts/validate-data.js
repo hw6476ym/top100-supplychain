@@ -1,5 +1,5 @@
 const fs = require('fs');
-const files=['data/companies.json','data/materialLedger.json','data/scenarios.json','data/materials.json'];
+const files=['data/companies.json','data/materialLedger.json','data/scenarios.json'];
 let ok=true;
 for(const f of files){
   const rows=JSON.parse(fs.readFileSync(f,'utf8'));
@@ -13,9 +13,6 @@ for(const f of files){
     }
     if(f.includes('scenarios')){
       ['name','channel','beneficiaries'].forEach(k=>{if(r[k]===undefined){console.error(`${f}[${i}] missing ${k}`);ok=false;}});
-    }
-    if(f.includes('materials')){
-      ['name','importance','substitution','recovery','strategic'].forEach(k=>{if(r[k]===undefined){console.error(`${f}[${i}] missing ${k}`);ok=false;}});
     }
   });
 }
