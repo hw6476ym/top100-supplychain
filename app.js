@@ -1,12 +1,12 @@
 import { sharedLinkages } from './js/linkageEngine.js';
 const riskFactors=["Taiwan semiconductor exposure","China manufacturing exposure","Advanced packaging exposure","HBM/memory exposure","Battery minerals exposure","Rare earth exposure","Data-center power exposure","Logistics chokepoint exposure","Single-supplier concentration","Export control exposure","Energy sensitivity","Inventory buffer weakness"];
 const byId=id=>document.getElementById(id),avg=a=>Math.round(a.reduce((x,y)=>x+y,0)/a.length);
-let companies=[],materialLedger=[],scenarios=[],materialsMeta=[],tradeBenchmarks=[];
+let companies=[],materialLedger=[],scenarios=[],materialsMeta=[];
 const geoNodes={'Chile (Escondida)':[-24.27,-69.08],'Peru (Cerro Verde)':[-16.54,-71.61],'US data center buildouts':[37.33,-121.89],'Asia substrate/PCB':[25.03,121.56],'Grid/server interconnect':[35.68,139.69],'EV powertrain chain':[31.23,121.47]};
 
 async function loadData(){
-  [companies,materialLedger,scenarios,materialsMeta,tradeBenchmarks]=await Promise.all([
-    fetch('./data/companies.json').then(r=>r.json()),fetch('./data/materialLedger.json').then(r=>r.json()),fetch('./data/scenarios.json').then(r=>r.json()),fetch('./data/materials.json').then(r=>r.json()),fetch('./data/tradeBenchmarks.json').then(r=>r.json())
+  [companies,materialLedger,scenarios,materialsMeta]=await Promise.all([
+    fetch('./data/companies.json').then(r=>r.json()),fetch('./data/materialLedger.json').then(r=>r.json()),fetch('./data/scenarios.json').then(r=>r.json()),fetch('./data/materials.json').then(r=>r.json())
   ]);
 }
 
@@ -29,9 +29,9 @@ function updateCompany(name){
 }
 function rankedRisks(c){return riskFactors.map((f,i)=>({factor:f,score:c.riskScores[i]})).sort((a,b)=>b.score-a.score)}
 function updateMaterial(material){
-  const rows=materialLedger.filter(r=>r.material===material), meta=materialsMeta.find(m=>m.name===material), bench=tradeBenchmarks.find(b=>b.material===material);
+  const rows=materialLedger.filter(r=>r.material===material), meta=materialsMeta.find(m=>m.name===material);
   const exposed=[...new Set(rows.map(r=>r.company))], totalVol=rows.reduce((s,r)=>s+r.volume_tons,0), topSupplier=Object.entries(rows.reduce((a,r)=>(a[r.supplier]=(a[r.supplier]||0)+r.volume_tons,a),{})).sort((a,b)=>b[1]-a[1])[0];
-  byId('materialInfo').innerHTML=`<b>${material}</b><br><b>Exposed companies:</b> ${exposed.join(', ')||'No records'}<br><b>System importance:</b> ${meta?.importance||'N/A'}/100 | <b>Substitution:</b> ${meta?.substitution||'N/A'} | <b>Recovery:</b> ${meta?.recovery||'N/A'}<br><b>Strategic read:</b> ${meta?.strategic||'N/A'}<br><b>Concentration insight:</b> total tracked flow ${totalVol.toLocaleString()} tons/yr; largest supplier flow ${topSupplier?`${topSupplier[0]} (${topSupplier[1].toLocaleString()} tons)`:'N/A'}.<br><b>Global trade/market benchmark:</b> ${bench?`${bench.metric}; volume ${bench.volume_tons?bench.volume_tons.toLocaleString()+' tons':''}${bench.volume_tons?' | ':''}value $${bench.value_usd_b}B (${bench.as_of}) [${bench.source}]`:'N/A'}.`;
+  byId('materialInfo').innerHTML=`<b>${material}</b><br><b>Exposed companies:</b> ${exposed.join(', ')||'No records'}<br><b>System importance:</b> ${meta?.importance||'N/A'}/100 | <b>Substitution:</b> ${meta?.substitution||'N/A'} | <b>Recovery:</b> ${meta?.recovery||'N/A'}<br><b>Strategic read:</b> ${meta?.strategic||'N/A'}<br><b>Concentration insight:</b> total tracked flow ${totalVol.toLocaleString()} tons/yr; largest supplier flow ${topSupplier?`${topSupplier[0]} (${topSupplier[1].toLocaleString()} tons)`:'N/A'}.`;
   byId('materialLedger').innerHTML='<tr><th>Company</th><th>Supplier</th><th>Origin</th><th>Route</th><th>Tons</th><th>$/ton</th><th>$M</th><th>Confidence</th></tr>'+rows.map(r=>`<tr><td>${r.company}</td><td>${r.supplier}</td><td>${r.origin}</td><td>${r.route}</td><td>${r.volume_tons.toLocaleString()}</td><td>${r.unit_cost_usd_ton.toLocaleString()}</td><td>${r.total_cost_usd_m.toLocaleString()}</td><td>${r.confidence_score}</td></tr>`).join('');
   renderLinkageMap(rows,material); renderShared(rows,material);
 }
