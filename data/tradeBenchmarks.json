@@ -1,0 +1,10 @@
+[
+  {"material":"Copper","metric":"World mine production (proxy for tradeable flow)","volume_tons":23000000,"value_usd_b":250,"as_of":"2025","source":"USGS Mineral Commodity Summaries 2026"},
+  {"material":"Lithium","metric":"Global lithium demand (LCE proxy)","volume_tons":205000,"value_usd_b":30,"as_of":"2024","source":"IEA Global EV Outlook 2024"},
+  {"material":"Nickel","metric":"Battery-relevant refined supply benchmark","volume_tons":3500000,"value_usd_b":70,"as_of":"2025","source":"USGS Mineral Commodity Summaries 2026"},
+  {"material":"Graphite","metric":"Natural graphite mine production benchmark","volume_tons":1700000,"value_usd_b":16,"as_of":"2025","source":"USGS Mineral Commodity Summaries 2026"},
+  {"material":"Silicon wafers","metric":"Semiconductor wafer market proxy","volume_tons":null,"value_usd_b":15,"as_of":"2025","source":"industry proxy estimate"},
+  {"material":"HBM memory","metric":"HBM market revenue proxy","volume_tons":null,"value_usd_b":20,"as_of":"2025","source":"industry proxy estimate"},
+  {"material":"Rare earth magnets","metric":"NdFeB magnet market proxy","volume_tons":230000,"value_usd_b":18,"as_of":"2025","source":"industry proxy estimate"},
+  {"material":"Power semiconductors","metric":"Power semiconductor market proxy","volume_tons":null,"value_usd_b":40,"as_of":"2025","source":"industry proxy estimate"}
+]
