@@ -1,0 +1,702 @@
+[
+  {
+    "source": "Apple",
+    "target": "BYD",
+    "type": "company-supplier",
+    "weight": 77,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Apple",
+    "target": "Schneider Electric",
+    "type": "company-supplier",
+    "weight": 83,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Apple",
+    "target": "SK Hynix",
+    "type": "company-supplier",
+    "weight": 88,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Apple",
+    "target": "Broadcom",
+    "type": "company-supplier",
+    "weight": 73,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Microsoft",
+    "target": "Dell",
+    "type": "company-supplier",
+    "weight": 79,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Microsoft",
+    "target": "Wistron",
+    "type": "company-supplier",
+    "weight": 64,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Microsoft",
+    "target": "SK Hynix",
+    "type": "company-supplier",
+    "weight": 81,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Microsoft",
+    "target": "Supermicro",
+    "type": "company-supplier",
+    "weight": 60,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nvidia",
+    "target": "Applied Materials",
+    "type": "company-supplier",
+    "weight": 78,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nvidia",
+    "target": "Cisco",
+    "type": "company-supplier",
+    "weight": 79,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nvidia",
+    "target": "ASE",
+    "type": "company-supplier",
+    "weight": 98,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nvidia",
+    "target": "BYD",
+    "type": "company-supplier",
+    "weight": 87,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Amazon",
+    "target": "CATL",
+    "type": "company-supplier",
+    "weight": 95,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Amazon",
+    "target": "Vertiv",
+    "type": "company-supplier",
+    "weight": 60,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Amazon",
+    "target": "Cisco",
+    "type": "company-supplier",
+    "weight": 52,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Amazon",
+    "target": "Luxshare",
+    "type": "company-supplier",
+    "weight": 50,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Alphabet",
+    "target": "ASML",
+    "type": "company-supplier",
+    "weight": 50,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Alphabet",
+    "target": "DHL",
+    "type": "company-supplier",
+    "weight": 62,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Alphabet",
+    "target": "Sony Semiconductor",
+    "type": "company-supplier",
+    "weight": 51,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Alphabet",
+    "target": "Samsung",
+    "type": "company-supplier",
+    "weight": 80,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Meta",
+    "target": "Cisco",
+    "type": "company-supplier",
+    "weight": 99,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Meta",
+    "target": "Supermicro",
+    "type": "company-supplier",
+    "weight": 73,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Meta",
+    "target": "Murata",
+    "type": "company-supplier",
+    "weight": 82,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Meta",
+    "target": "Micron",
+    "type": "company-supplier",
+    "weight": 96,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Tesla",
+    "target": "Luxshare",
+    "type": "company-supplier",
+    "weight": 73,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Tesla",
+    "target": "Broadcom",
+    "type": "company-supplier",
+    "weight": 93,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Tesla",
+    "target": "Quanta",
+    "type": "company-supplier",
+    "weight": 76,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Tesla",
+    "target": "ASE",
+    "type": "company-supplier",
+    "weight": 88,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Broadcom",
+    "target": "DHL",
+    "type": "company-supplier",
+    "weight": 68,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Broadcom",
+    "target": "Foxconn",
+    "type": "company-supplier",
+    "weight": 92,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Broadcom",
+    "target": "Murata",
+    "type": "company-supplier",
+    "weight": 63,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Broadcom",
+    "target": "SK Hynix",
+    "type": "company-supplier",
+    "weight": 80,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "AMD",
+    "target": "UPS",
+    "type": "company-supplier",
+    "weight": 80,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "AMD",
+    "target": "TSMC",
+    "type": "company-supplier",
+    "weight": 87,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "AMD",
+    "target": "Supermicro",
+    "type": "company-supplier",
+    "weight": 82,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "AMD",
+    "target": "Vertiv",
+    "type": "company-supplier",
+    "weight": 93,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Intel",
+    "target": "Samsung",
+    "type": "company-supplier",
+    "weight": 50,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Intel",
+    "target": "Sony Semiconductor",
+    "type": "company-supplier",
+    "weight": 59,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Intel",
+    "target": "CATL",
+    "type": "company-supplier",
+    "weight": 97,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Intel",
+    "target": "Vertiv",
+    "type": "company-supplier",
+    "weight": 58,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Qualcomm",
+    "target": "Sony Semiconductor",
+    "type": "company-supplier",
+    "weight": 55,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Qualcomm",
+    "target": "Qualcomm",
+    "type": "company-supplier",
+    "weight": 58,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Qualcomm",
+    "target": "Applied Materials",
+    "type": "company-supplier",
+    "weight": 69,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Qualcomm",
+    "target": "FedEx",
+    "type": "company-supplier",
+    "weight": 86,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Oracle",
+    "target": "Schneider Electric",
+    "type": "company-supplier",
+    "weight": 93,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Oracle",
+    "target": "LG Energy Solution",
+    "type": "company-supplier",
+    "weight": 61,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Oracle",
+    "target": "BYD",
+    "type": "company-supplier",
+    "weight": 94,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Oracle",
+    "target": "Arista",
+    "type": "company-supplier",
+    "weight": 50,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Salesforce",
+    "target": "Maersk",
+    "type": "company-supplier",
+    "weight": 74,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Salesforce",
+    "target": "Samsung",
+    "type": "company-supplier",
+    "weight": 77,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Salesforce",
+    "target": "Schneider Electric",
+    "type": "company-supplier",
+    "weight": 91,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Salesforce",
+    "target": "ASE",
+    "type": "company-supplier",
+    "weight": 69,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Adobe",
+    "target": "Luxshare",
+    "type": "company-supplier",
+    "weight": 63,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Adobe",
+    "target": "Lam Research",
+    "type": "company-supplier",
+    "weight": 77,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Adobe",
+    "target": "Murata",
+    "type": "company-supplier",
+    "weight": 99,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Adobe",
+    "target": "Foxconn",
+    "type": "company-supplier",
+    "weight": 50,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Cisco",
+    "target": "CATL",
+    "type": "company-supplier",
+    "weight": 85,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Cisco",
+    "target": "Corning",
+    "type": "company-supplier",
+    "weight": 65,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Cisco",
+    "target": "Murata",
+    "type": "company-supplier",
+    "weight": 59,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Cisco",
+    "target": "SK Hynix",
+    "type": "company-supplier",
+    "weight": 88,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ASML",
+    "target": "Schneider Electric",
+    "type": "company-supplier",
+    "weight": 69,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ASML",
+    "target": "Maersk",
+    "type": "company-supplier",
+    "weight": 52,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ASML",
+    "target": "Corning",
+    "type": "company-supplier",
+    "weight": 89,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ASML",
+    "target": "Arista",
+    "type": "company-supplier",
+    "weight": 84,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Samsung Electronics",
+    "target": "Luxshare",
+    "type": "company-supplier",
+    "weight": 78,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Samsung Electronics",
+    "target": "Quanta",
+    "type": "company-supplier",
+    "weight": 77,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Samsung Electronics",
+    "target": "Cisco",
+    "type": "company-supplier",
+    "weight": 52,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Samsung Electronics",
+    "target": "DHL",
+    "type": "company-supplier",
+    "weight": 98,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "TSMC",
+    "target": "Broadcom",
+    "type": "company-supplier",
+    "weight": 61,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "TSMC",
+    "target": "SK Hynix",
+    "type": "company-supplier",
+    "weight": 64,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "TSMC",
+    "target": "Micron",
+    "type": "company-supplier",
+    "weight": 68,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "TSMC",
+    "target": "Applied Materials",
+    "type": "company-supplier",
+    "weight": 66,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Sony",
+    "target": "Amkor",
+    "type": "company-supplier",
+    "weight": 65,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Sony",
+    "target": "Tokyo Electron",
+    "type": "company-supplier",
+    "weight": 83,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Sony",
+    "target": "Wistron",
+    "type": "company-supplier",
+    "weight": 97,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Sony",
+    "target": "Corning",
+    "type": "company-supplier",
+    "weight": 97,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Panasonic",
+    "target": "FedEx",
+    "type": "company-supplier",
+    "weight": 83,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Panasonic",
+    "target": "Dell",
+    "type": "company-supplier",
+    "weight": 81,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Panasonic",
+    "target": "Samsung",
+    "type": "company-supplier",
+    "weight": 58,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Panasonic",
+    "target": "Micron",
+    "type": "company-supplier",
+    "weight": 97,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Boeing",
+    "target": "TSMC",
+    "type": "company-supplier",
+    "weight": 73,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Boeing",
+    "target": "Inventec",
+    "type": "company-supplier",
+    "weight": 77,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Boeing",
+    "target": "Sony Semiconductor",
+    "type": "company-supplier",
+    "weight": 92,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Boeing",
+    "target": "Cisco",
+    "type": "company-supplier",
+    "weight": 58,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nike",
+    "target": "Samsung",
+    "type": "company-supplier",
+    "weight": 77,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nike",
+    "target": "FedEx",
+    "type": "company-supplier",
+    "weight": 88,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nike",
+    "target": "Schneider Electric",
+    "type": "company-supplier",
+    "weight": 78,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Nike",
+    "target": "Murata",
+    "type": "company-supplier",
+    "weight": 51,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Pfizer",
+    "target": "Murata",
+    "type": "company-supplier",
+    "weight": 66,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Pfizer",
+    "target": "Quanta",
+    "type": "company-supplier",
+    "weight": 67,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Pfizer",
+    "target": "TSMC",
+    "type": "company-supplier",
+    "weight": 79,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Pfizer",
+    "target": "Panasonic",
+    "type": "company-supplier",
+    "weight": 74,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ExxonMobil",
+    "target": "Supermicro",
+    "type": "company-supplier",
+    "weight": 100,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ExxonMobil",
+    "target": "CATL",
+    "type": "company-supplier",
+    "weight": 62,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ExxonMobil",
+    "target": "FedEx",
+    "type": "company-supplier",
+    "weight": 52,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "ExxonMobil",
+    "target": "Wistron",
+    "type": "company-supplier",
+    "weight": 84,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Siemens",
+    "target": "Maersk",
+    "type": "company-supplier",
+    "weight": 91,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Siemens",
+    "target": "Pegatron",
+    "type": "company-supplier",
+    "weight": 91,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Siemens",
+    "target": "ASML",
+    "type": "company-supplier",
+    "weight": 85,
+    "riskCategory": "concentration"
+  },
+  {
+    "source": "Siemens",
+    "target": "SK Hynix",
+    "type": "company-supplier",
+    "weight": 55,
+    "riskCategory": "concentration"
+  }
+]
