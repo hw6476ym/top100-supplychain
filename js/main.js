@@ -1,3 +1,37 @@
+console.log("MAIN JS LOADED");
+
+Promise.all([
+  fetch('data/companies.json').then(r => r.json()),
+  fetch('data/materials.json').then(r => r.json()),
+  fetch('data/suppliers.json').then(r => r.json()),
+  fetch('data/scenarios.json').then(r => r.json()),
+  fetch('data/relationships.json').then(r => r.json())
+])
+.then(([companies, materials, suppliers, scenarios, relationships]) => {
+
+  console.log("DATA LOADED:", companies);
+
+  // SIMPLE TEST RENDER (VERY IMPORTANT)
+  const container = document.getElementById("companyCards");
+
+  if (!container) {
+    document.body.innerHTML += "<h2 style='color:red'>NO CONTAINER FOUND</h2>";
+    return;
+  }
+
+  container.innerHTML = companies.slice(0,5).map(c => `
+    <div style="border:1px solid #444;padding:10px;margin:10px;">
+      <h3>${c.name}</h3>
+      <p>${c.sector}</p>
+    </div>
+  `).join('');
+
+})
+.catch(err => {
+  console.error("DATA LOAD FAILED:", err);
+  document.body.innerHTML += "<h2 style='color:red'>DATA LOAD FAILED</h2>";
+});
+
 import { loadData } from './dataStore.js';
 import { setSelectedCompany, setSelectedMaterial, setSelectedScenario } from './state.js';
 import { avg, renderRanking, renderHeatmap, renderCompanyCharts } from './charts.js';
