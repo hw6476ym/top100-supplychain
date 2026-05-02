@@ -28,7 +28,7 @@ function render(data) {
   const { companies, materials } = data;
 
   // ===== COMPANY CARDS =====
-  const container = byId("companyCards");
+  const container = byId("leaderCards");
   if (container) {
     container.innerHTML = companies.slice(0, 10).map(c => `
       <div style="border:1px solid #444; padding:10px; margin:10px;">
