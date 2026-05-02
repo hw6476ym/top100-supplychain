@@ -1,9 +1,7 @@
 // ✅ IMPORTS MUST BE FIRST
-import { loadData } from './dataStore.js';
-import { setSelectedCompany, setSelectedMaterial, setSelectedScenario } from './state.js';
-import { avg, renderRanking, renderHeatmap, renderCompanyCharts } from './charts.js';
-import { renderSankey, renderNetwork, renderTable } from './linkage.js';
-import { updateScenario } from './scenarios.js';
+console.log("JS WORKS NOW");
+
+document.body.innerHTML = "<h1 style='color:lime'>JS IS RUNNING NOW</h1>";
 
 console.log("MAIN.JS RUNNING");
 
