@@ -29,6 +29,15 @@ function render(data) {
 
   // ===== COMPANY CARDS =====
   const container = byId("leaderCards");
+
+  const ranking = byId("rankingChart");
+if (ranking) {
+  ranking.innerHTML = companies.slice(0,5).map(c =>
+    `<div style="padding:5px">${c.name} - ${c.resilienceScore}</div>`
+  ).join("");
+}
+
+  
   if (container) {
     container.innerHTML = companies.slice(0, 10).map(c => `
       <div style="border:1px solid #444; padding:10px; margin:10px;">
